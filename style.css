@@ -14,7 +14,7 @@ html, body{
     height: 100%;
     width: 100%;
     margin: auto;
-    background: url(https://www.pexels.com/photo/forest-mountains-fog-clouds-9754/) no-repeat 50% 50%;
+    background: url('../dougshipp.github.io/clouds-fog-forest-9754.jpg') no-repeat 50% 50%;
     display: table;
     top: 0%;
     background-size: cover;
@@ -31,6 +31,4 @@ max-width: none;
     max-width: 500px;
     margin: 0 auto;
     text-align: center;
-     
-
 }
