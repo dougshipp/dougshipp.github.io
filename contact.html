@@ -1,22 +1,24 @@
-<!DOCTYPE html>
-<head>
-    
-</head>
-
-<body class="contact-form">
-    <div>
-            <h1>Elegant Contact Form</h1>
-            <form class="cf">
-              <div class="half left cf">
-                <input type="text" id="input-name" placeholder="Name">
-                <input type="email" id="input-email" placeholder="Email address">
-                <input type="text" id="input-subject" placeholder="Subject">
-              </div>
-              <div class="half right cf">
-                <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
-              </div>  
-              <input type="submit" value="Submit" id="input-submit">
-            </form>
-    </div>
-   
-</body>
+<template>
+  <div class="ui divider">
+    <h2 class="ui header">Contact Form</h2>
+  </div>
+  <div class="field">
+    <form class="ui form">
+      <div class="field">
+        <label>First Name</label>
+        <input type="text" name="first-name" placeholder="First Name">
+      </div>
+      <div class="field">
+        <label>Last Name</label>
+        <input type="text" name="last-name" placeholder="Last Name">
+      </div>
+      <div class="field">
+        <div class="ui checkbox">
+          <input type="checkbox" tabindex="0" class="hidden">
+          <label>I agree to the Terms and Conditions</label>
+        </div>
+      </div>
+      <button class="ui button" type="submit">Submit</button>
+    </form>
+  </div>
+</template>
